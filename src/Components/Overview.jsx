@@ -8,7 +8,7 @@ import Gmail from '../assets/gmaillogo.png'
 const Overview = () => {
     return (
         <div className='overview pb-20'>
-            <header className='h-10 sticky top-15 bg-black border-b-2 border-[#1D1D1D] w-full flex justify-between items-center'>
+            <header className='h-10 sticky top-15 bg-black border-b-2 border-[#1D1D1D] w-full flex justify-between items-center z-50'>
                 <ul className='flex items-center justify-center'>
                     <li className='cursor-pointer hover:bg-[#1D1D1D] h-full py-2 px-6 border-[#1D1D1D]'>Overview</li>
                     <li className='cursor-pointer hover:bg-[#1D1D1D] h-full py-2 px-6 border-l-2 border-[#1D1D1D]'>Portfolio</li>
